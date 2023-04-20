@@ -1,0 +1,216 @@
+.product {
+    /* border: 2px solid green; */
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: scroll;
+    padding-top: 2rem;
+
+
+}
+
+.product .card {
+    /* border: 2px solid red; */
+    height: 85%;
+    width: 28.5%;
+    margin: 0.9rem;
+    display: flex;
+    padding-left: 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    box-shadow: 0 0 5px black;
+    transition: .1s;
+}
+
+.product :hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 10px red;
+}
+
+.card :hover {
+    transform: none;
+    box-shadow: none;
+}
+
+.product .card img {
+    /* border: 2px solid red; */
+    width: 90%;
+    height: 60%;
+}
+
+.product .card h2 {
+    text-transform: capitalize;
+    /* border: 2px solid red; */
+    font-size: 1.8rem;
+}
+
+.product .card p {
+    /* border: 2px solid red; */
+    font-size: 1.3rem;
+}
+
+.product .card span {
+    opacity: .6;
+}
+
+.product .card button {
+    /* border: 2px solid red; */
+    outline: none;
+    border: none;
+    transition: .3s;
+    height: 8%;
+    width: 60%;
+    background-color: deepskyblue;
+    border-radius: 50px;
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+@media only screen and (min-width:950px) and (max-width:1325px) {
+
+    .product .card h2 {
+        font-size: 1.4rem;
+    }
+
+    .product .card p {
+        /* border: 2px solid red; */
+        font-size: 1.2rem;
+    }
+
+    .product .card button {
+        height: 8%;
+        width: 70%;
+        font-size: 1.1rem;
+
+    }
+
+}
+
+@media only screen and (min-width:743px) and (max-width:950px) {
+    
+    .product .card {
+        /* border: 2px solid red; */
+        height: 85%;
+        width: 29%;
+    }
+    .product .card h2 {
+        font-size: 1.3rem;
+    }
+
+    .product .card p {
+        /* border: 2px solid red; */
+        font-size: 1.2rem;
+    }
+
+    .product .card button {
+        height: 8%;
+        width: 70%;
+        font-size: 1.1rem;
+
+    }
+}
+@media only screen and (min-width:520px) and (max-width:744px){
+    
+    .product .card {
+        /* border: 2px solid red; */
+        height: 85%;
+        width: 38%;
+    }
+    .product .card h2 {
+        font-size: 1.3rem;
+    }
+
+    .product .card p {
+        /* border: 2px solid red; */
+        font-size: 1.2rem;
+    }
+
+    .product .card button {
+        height: 8%;
+        width: 70%;
+        font-size: 1.1rem;
+
+    }
+}
+@media only screen and (min-width:370px) and (max-width:520px){
+    
+    .product .card {
+        /* border: 2px solid red; */
+        height: 80%;
+        width: 70%;
+        /* margin: 0.4rem; */
+    }
+    .product .card h2 {
+        font-size: 1.5rem;
+    }
+
+    .product .card p {
+        font-size: 1.3rem;
+    }
+
+    .product .card button {
+        height: 8%;
+        width: 80%;
+        font-size: 1.1rem;
+
+    }
+   
+}
+@media only screen and (min-width:280px) and (max-width:370px){
+    
+    .product .card {
+        /* border: 2px solid red; */
+        height: 50%;
+        width: 45%;
+        margin: 0.4rem;
+        padding-left: .8rem;
+    }
+    .product .card img{
+        width: 90%;
+        height: 55%;
+    }
+    .product .card h2 {
+        font-size: 1rem;
+    }
+
+    .product .card p {
+        font-size: .8rem;
+    }
+.product .card span{
+    font-size: .6rem;
+}
+    .product .card button {
+        height: 10%;
+        width: 93%;
+        font-size: .7rem;
+
+    }
+}
+@media only screen and (max-width:280px){
+    
+    .product .card {
+        /* border: 2px solid red; */
+        height: 70%;
+        width: 85%;
+        /* margin: 0.4rem; */
+    }
+    .product .card h2 {
+        font-size: 1.5rem;
+    }
+
+    .product .card p {
+        font-size: 1.3rem;
+    }
+
+    .product .card button {
+        height: 8%;
+        width: 80%;
+        font-size: 1.1rem;
+
+    }
+}

@@ -2,7 +2,7 @@ import React from 'react'
 import '../CSS_files/Navbar.css'
 import { Link } from 'react-router-dom'
 import { useSelector } from 'react-redux'
-import MenuIcon from '@mui/icons-material/Menu';
+// import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 const Navbar = () => {
@@ -19,10 +19,10 @@ const Navbar = () => {
             <div className="menu">
               <CloseIcon />
             </div>
-            <Link to={'/'}>
+            <Link to={'/home'}>
               <li>Home</li>
             </Link>
-            <Link to={'product'}>
+            <Link to={'/'}>
               <li>Product</li>
             </Link>
             <Link to={'cart'}>

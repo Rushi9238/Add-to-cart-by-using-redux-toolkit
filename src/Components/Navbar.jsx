@@ -26,7 +26,7 @@ const Navbar = () => {
               <li>Product</li>
             </Link>
             <Link to={'cart'}>
-              <li>Add to Cart {cart.length > 0 ?  <span> <ShoppingCartIcon/>{cart.length}</span> : null} </li>
+              <li>Add to Cart {cart.length > 0 ? <span> <ShoppingCartIcon />{cart.length}</span> : null} </li>
             </Link>
 
           </ul>

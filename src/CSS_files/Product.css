@@ -39,6 +39,7 @@
     /* border: 2px solid red; */
     width: 90%;
     height: 60%;
+    cursor: pointer;
 }
 
 .product .card h2 {

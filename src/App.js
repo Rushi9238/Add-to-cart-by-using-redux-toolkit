@@ -9,6 +9,8 @@ import Product from './Components/Product'
 import Login from './Components/Login'
 
 import './App.css';
+import ProductDetalis from './Components/ProductDetalis';
+import Footer from './Components/Footer';
 
 function App() {
   const [login,logout]=useState(false)
@@ -30,8 +32,13 @@ function App() {
           <Route path='/home'  element={login ? <Home/> : <Login login={login} logout={logout}/>} />
           <Route path='/' element={login ? <Product />: <Login login={login} logout={logout}/>} />
           <Route path='/cart' element={login ? <Cart /> : <Login login={login} logout={logout}/>} />
+          <Route path='/details/:id' element={login ? <ProductDetalis/> : <Login login={login} logout={logout}/>}/>
           <Route path='*' element={<h1 style={{textAlign:'center',marginTop:'5rem'}}>404 Page Not found</h1>}/>
+          
         </Routes>
+        {/* {
+        login ? <Footer/> : null
+      } */}
       </div>
    
   );

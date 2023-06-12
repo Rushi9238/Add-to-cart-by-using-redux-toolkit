@@ -47,7 +47,7 @@ export default function SignInSide({login,logout}) {   //main function start
     // });
     // console.log(login);
 
-    if (data.get('email') !== '' && data.get('password') !== '') {
+    if (data.get('email') == '' && data.get('password') == '') {
       if (login === false) {
         
     //     // navigate('home')

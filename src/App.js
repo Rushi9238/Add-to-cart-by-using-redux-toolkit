@@ -10,19 +10,32 @@ import Login from './Components/Login'
 
 import './App.css';
 import ProductDetalis from './Components/ProductDetalis';
-import Footer from './Components/Footer';
+// import Footer from './Components/Footer';
 
 function App() {
   const [login,logout]=useState(false)
   const dispatch = useDispatch()
   useEffect(() => {
     const fetchData = async () => {
+     try {
       const api = await fetch('https://fakestoreapi.com/products')
       const res = await api.json()
       dispatch(collectData(res))
+      
+     } catch (error) {
+      console.log(error);
+     }
     }
     fetchData()
   }, [])
+//   const handelInfiniteScroll=()=>{
+//     console.log('Scroll height'+ document.documentElement.scrollHeight);
+//     console.log('scroll inner height'+ window.innerHeight );
+//     console.log('all page height'+ document.documentElement.scrollHeight);
+//   }
+// useEffect(()=>{
+//   window.addEventListener('scroll',handelInfiniteScroll)
+// },[])
   return (
       <div className="App">
          {

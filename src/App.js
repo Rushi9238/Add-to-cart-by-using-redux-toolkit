@@ -38,12 +38,16 @@ function App() {
 // },[])
   return (
       <div className="App">
-         {
+         {/* {
         login ? <Navbar/> : null
-      }
+
+      } */}
+      <Navbar login={login}/>
         <Routes>
           <Route path='/home'  element={login ? <Home/> : <Login login={login} logout={logout}/>} />
-          <Route path='/' element={login ? <Product />: <Login login={login} logout={logout}/>} />
+          {/* <Route path='/' element={login ? <Product />: <Login login={login} logout={logout}/>} /> */}
+          <Route path='/' element={<Product/>}/>
+          <Route path="/login" element={<Login login={login} logout={logout} />} />
           <Route path='/cart' element={login ? <Cart /> : <Login login={login} logout={logout}/>} />
           <Route path='/details/:id' element={login ? <ProductDetalis/> : <Login login={login} logout={logout}/>}/>
           <Route path='*' element={<h1 style={{textAlign:'center',marginTop:'5rem'}}>404 Page Not found</h1>}/>

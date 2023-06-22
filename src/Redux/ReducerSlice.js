@@ -4,7 +4,8 @@ const cart = createSlice({
     name: 'cartData',
     initialState: {
         product: [],
-        cart: []
+        cart: [],
+        userData:[],
     },
     reducers: {
         collectData: (state, action) => {
@@ -18,10 +19,13 @@ const cart = createSlice({
         removeToCart: (state, action) => {
             // console.log(cart);
             state.cart=action.payload
-            console.log(action.payload);
+            // console.log(action.payload);
+        },
+        setUserData:(state,action)=>{
+            // console.log(state.product);
         }
     }
 })
-export const { collectData, addToCart, removeToCart } = cart.actions
+export const { collectData, addToCart, removeToCart,setUserData } = cart.actions
 
 export default cart.reducer

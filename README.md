@@ -1,6 +1,6 @@
 # BuzzBird
 
-[BuzzBird](https://buzzbird-v1.netlify.app/) - A social media website where you can connect with your friends.
+[ShopCart](https://add-to-cart-by-using-redux-toolkit.vercel.app/) - A E-comm website where you can connect with your friends.
 
 (https://www.awesomescreenshot.com/video/19662693?key=3e0c95d19601a7a04ebfd14bec5d2ceb)
 

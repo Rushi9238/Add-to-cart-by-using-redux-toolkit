@@ -1,4 +1,4 @@
-# BuzzBird
+# SHOPCART
 
 [ShopCart](https://add-to-cart-by-using-redux-toolkit.vercel.app/) - A E-comm website where you can connect with your friends.
 ## Functionality Video Link

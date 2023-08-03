@@ -8,80 +8,55 @@
 ## How to install and run locally?
 
 ```
-$ git clone https://github.com/pranita09/buzzbird.git
-$ cd buzzbird
+$ git clone https://add-to-cart-by-using-redux-toolkit.vercel.app/
 $ npm install
 $ npm start
 ```
 
 ## Pages and Features -
 
-### [Home Page](https://buzzbird-v1.netlify.app/)
+### [Product Page](https://add-to-cart-by-using-redux-toolkit.vercel.app/)
 
-- Posts of users you follow
-- User Suggestions
-  - Follow users
-- Like/Unlike a Post
-- Add/Remove bookmark on a post
-- Comment on a post
-- Create/Edit posts with Images and Emoji Upload
-- Delete your Own posts
-- Share post link
-- Sort posts based on Latest/Trending/Oldest.
-- Infinite Scroll
+- Product list
+- User authentication 
+- Wish list 
+- Product details and price
+- Share product link
+- limited Scroll
 
-### [Explore Page](https://buzzbird-v1.netlify.app/explore)
+### [Product Details Page](https://add-to-cart-by-using-redux-toolkit.vercel.app/details/2)
 
-- All Posts from latest to oldest
-- Infinite Scroll
+- Show Product details
+- Show Next suggestion product list
+- add the cart List
+- Buying the product
 
-### [Bookmarks Page](https://buzzbird-v1.netlify.app/bookmarks)
+### [Cart list Page](https://add-to-cart-by-using-redux-toolkit.vercel.app/cart)
 
-- User Bookmarked posts list
-  - Remove from Bookmarks
-  - Like/Comment
+- Show cart data
+- We Can remove the product item
+- Again add to cart product
+- check cart list is empty or not 
 
-### [Profile Page](https://buzzbird-v1.netlify.app/profile/emilysmith)
+### [Login Page](https://add-to-cart-by-using-redux-toolkit.vercel.app/login)
 
-- Edit your Own Profile with an Image Upload
-- Can choose from Avatar options also
-- Edit background cover photo
-- Follow/Unfollow users.
-- Check followers/following list.
-- Logout
-- List of all posts posted by the user
+- check whether the user is logged in or not
+- login data
 
-### [Single Post Page](https://buzzbird-v1.netlify.app/post/175ece04-a8b3-4cf5-a9f1-4de2c84c8b7c)
-
-- Like/Unlike post
-- Add/Remove bookmark on a post
-- Comment on a post
-- Share post link
-- Edit/Delete posts
-- Liked By Users List
-- Comments list
-- Edit/Delete own comments
-
-### [Other Features](https://buzzbird-v1.netlify.app)
+### [Other Features](https://add-to-cart-by-using-redux-toolkit.vercel.app/)
 
 - Authentication
   - Login
-  - Signup
-- Video Upload
-- 404 Error Page
-- Dark Mode
-- Search Users
-- Toasts
-- Loaders
-- Responsive
+  - As Guest Login
+- responsiveness
+- Easy to use
+- 
 
 ## Built with -
 
 - React JS
-- React Context API + useReducer
+- React+ Redux-toolkit
 - React Router v6
-- Tailwind CSS
+- CSS
 - Material UI components
-- mockBee for backend
 - React Icons
-- React Hot Toast

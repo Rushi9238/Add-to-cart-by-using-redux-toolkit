@@ -2,7 +2,7 @@
 
 [BuzzBird](https://buzzbird-v1.netlify.app/) - A social media website where you can connect with your friends.
 
-[https://github.com/pranita09/buzzbird/assets/66015794/7b7c03b7-f7c0-428b-bd27-f00b7006d594](https://www.awesomescreenshot.com/video/19662693?key=3e0c95d19601a7a04ebfd14bec5d2ceb)
+(https://www.awesomescreenshot.com/video/19662693?key=3e0c95d19601a7a04ebfd14bec5d2ceb)
 
 
 ## How to install and run locally?
